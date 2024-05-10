@@ -2,8 +2,33 @@
  * @NApiVersion 2.1
  * @NScriptType Suitelet
  */
+/*****************************************************************************************************************************************************************************************
+**************************
+*
+*${RAFF Assessment}:${Create a page to display the details of universities using data from hipolabs.com.}
+*
+******************************************************************************************************************************************************************************************
+**************************
+ *
+ * Author : Jobin and Jismi
+ *
+ * Date Created : 10-May-2024
+ *
+ * Created by :Guna M , Jobin and Jismi IT Services.
+ *
+ * Description : Create a page to display the details of universities using data from hipolabs.com.
+ *
+ *
+*****************************************************************************************************************************************************************************************
+******************************/
 define(['N/ui/serverWidget', 'N/http'], function (serverWidget, http) {
-
+    /**
+            * Defines the Suitelet script trigger point.
+            * @param {Object} scriptContext
+            * @param {ServerRequest} scriptContext.request - Incoming request
+            * @param {ServerResponse} scriptContext.response - Suitelet response
+            * @since 2015.2
+            */
     function onRequest(context) {
         var request = context.request;
         var response = context.response;
